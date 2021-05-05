@@ -39,6 +39,7 @@ h1 {
   background: #0a66c2;
   color: #fff;
   padding: 5px 40px;
+  /* padding: 5px 40px; */
   /* padding: 10px 20px; */
   cursor: pointer;
   border: 0;
@@ -63,8 +64,19 @@ h1 {
   margin: 10px 0px;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-white:hover {
   opacity: 0.8;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000 !important;
+  padding: 3px 15px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 .btn-icon {

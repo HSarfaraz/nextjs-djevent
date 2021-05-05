@@ -5,6 +5,7 @@
       "@/components/*" : ["components/*"], //@/components/ path will go to components/* path
       "@/styles/*" : ["styles/*"],
       "@/config/*" : ["config/*"],
+      "@/context/*" : ["context/*"],
     }
   }
 }
