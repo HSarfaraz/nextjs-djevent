@@ -1,0 +1,49 @@
+.event {
+  position: relative;
+  padding-top: 40px;
+}
+
+.event h3 {
+  font-size: 25px;
+}
+
+.event p {
+  margin: 10px 0;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+.image > * {
+  border-radius: 5px;
+}
+
+.controls {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+.controls a,
+.back {
+  background: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.delete {
+  margin-left: 20px;
+  color: red !important;
+}
+
+.back {
+  display: block;
+  margin-top: 40px;
+  width: 100px;
+}
+
+.whitebanner {
+  background-color: #fff;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

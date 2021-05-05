@@ -2,20 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
-  color: #333;
-  height: 60px;
+  background: #0a66c2;
+  color: #fff;
+  height: 50px;
+  /* height: 60px; */
   padding: 0 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header a {
-  color: #333;
+  color: #fff;
   margin-right: 20px;
 }
 
 .header a:hover {
-  color: #000;
+  color: #fff;
 }
 .header ul {
   display: flex;
@@ -25,13 +26,13 @@
 }
 
 .logo {
-  color: red;
+  color: #fff;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .logo a {
-  color: red;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
