@@ -91,7 +91,12 @@ export async function getServerSideProps({ query: { slug } }) {
 
   return {
     props: {
-      evt: events[0],
+      props: {events}
     },
   }
+  // return {
+  //   props: {
+  //     evt: events[0],
+  //   },
+  // }
 }
