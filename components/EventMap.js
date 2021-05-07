@@ -35,7 +35,7 @@ export default function EventMap({evt}) {
     );
   },[])
   // set Google Maps Geocoding API for purposes of quota management. Its optional but recommended.
-  Geocode.setApiKey(process.env.NEXT_PUBLIC_GOOGLE_MAP__API_KEY);
+  Geocode.setApiKey(process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY);
 
   if(loading) return false; 
 
