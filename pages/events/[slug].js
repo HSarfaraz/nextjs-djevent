@@ -89,14 +89,14 @@ export async function getServerSideProps({ query: { slug } }) {
   const res = await fetch(`${API_URL}/events?slug=${slug}`)
   const events = await res.json()
 
-  return {
-    props: {
-      props: {events}
-    },
-  }
   // return {
   //   props: {
-  //     evt: events[0],
+  //     props: {events}
   //   },
   // }
+  return {
+    props: {
+      evt: events[0],
+    },
+  }
 }
