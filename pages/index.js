@@ -12,8 +12,9 @@ export default function HomePage({events}) {
 
       {events.map(evt => (
         <EventItem key={evt.id} evt={evt} />
-      ))}
+        ))}
 
+       
       
       {events.length > 0 && (
         <Link href='/events'>
