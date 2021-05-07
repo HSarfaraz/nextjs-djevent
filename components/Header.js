@@ -1,4 +1,4 @@
-import {FaSignInAlt, FaSignOutAlt} from 'react-icons/fa'
+import {FaSignInAlt, FaSignOutAlt, FaFish} from 'react-icons/fa'
 import {useContext} from 'react'
 import Link from 'next/link'
 import Search from './Search'
@@ -12,7 +12,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Link href='/'>
-          <a>DJ Events</a>
+          <a><FaFish className={styles.fishlogo} />Fishing Events</a>
         </Link>
       </div>
 

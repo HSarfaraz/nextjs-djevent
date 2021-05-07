@@ -28,11 +28,18 @@
 .logo {
   color: #fff;
   font-size: 20px;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  /* text-transform: uppercase; */
 }
 
 .logo a {
   color: #fff;
+}
+
+.fishlogo {
+  transform: rotate(-30deg);
+  padding-top: 5px;
+  margin-right: 5px;
 }
 
 @media (max-width: 768px) {
