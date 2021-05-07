@@ -10,7 +10,7 @@ export default function HomePage({events}) {
       
       {events.length === 0 && <h3>No events to show</h3>}
 
-      {events.map(evt => (
+      {events.map((evt) => (
         <EventItem key={evt.id} evt={evt} />
         ))}
 
