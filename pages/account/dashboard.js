@@ -34,7 +34,7 @@ export default function DashboardPage({events, token}) {
       <div className={styles.dash}>
         <h1>Dashboard</h1>
         <h3>My Events</h3>
-        {events.map((evt) => (
+        {events.map(evt => (
           <DashboardEvent key={evt.id} evt={evt} handleDelete={deleteEvent}/>
         ))}
       </div>
